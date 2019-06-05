@@ -1,0 +1,115 @@
+* {margin: 0px; padding: 0px;}
+
+body{font-family: raleway, sans-serif;}
+
+div#openLoad {
+	/*position: fixed;
+	width: 100vw;
+	height: 50px;*/
+	background-color: #03235b;
+}
+
+nav#openingNav {
+	width: 100%;
+	margin: 0 auto;
+	top: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #fff;
+	position: fixed;
+	background-color: #03235b;
+}
+
+div#openLoad::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav ul {float: right;}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	width: auto;
+	/*margin: 0.6em 4vw;
+	padding: 3px;*/
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 5px;
+}
+
+li img {
+	margin: 15px;
+	padding: 0;
+	height: 50px;
+	margin-bottom: 5px;
+
+div#openLoad::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+}
+
+form input {
+	border-radius: 5px;
+}
+
+form input#search {
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+#signIn {
+	width: auto;
+	margin-left: 60px;
+	background-color: gold;
+	color: #03235b;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+div.main {
+	background-color: #fff;
+	padding-top: 55px;
+}
+
+div.an {
+	margin: 0px 5px 5px 5px;
+	padding: 5px;
+	display: table;
+}
+
+div.announcement {display: table-cell;}
+
+h3 {
+	margin: 0px 5px 5px 5px;
+	padding: 5px;
+	text-transform: capitalize;
+}
+
+nav a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: gold;
+	text-decoration: none;
+}
+
+nav a:active {
+	color: #03235b;
+	text-decoration: none;
+}
+
+

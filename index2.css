@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: raleway, sans-serif;
+	width: 80%;
+	margin: 0 auto;
+}
+
+ul li {list-style: none;}
+
+/*==header===
+=============*/
+
+
+
+/*==main===
+=============*/
+
+h3 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+h4 {
+	margin: 0.2em;
+	padding: 0.5em;
+}
+
+p {
+	margin: 0.2em;
+	padding: 0.5em;
+	text-align: justify;
+	/*background-color: pink;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+p.button1 a {
+	padding: 0.5em;
+}
+
+p.button2 a {
+	padding: 0.2em;
+}
+
+div.box1 {
+	margin: 0.2em;
+	padding: 0.5em;
+	border: 1px solid #000;
+	border-radius: 18px;
+	/*background-color: pink;*/
+}
+
+div.box2 {
+	margin: 0.2em;
+	padding: 0.5em;
+	width: 47.7%;
+	border: 1px solid #000;
+	border-radius: 18px;
+	float: left;
+	margin-bottom: 1em;
+}
+
+div#news p.button1 {
+	clear: both;
+}
+
+p.button1 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	width: 200px;
+	text-align: center;
+	border: 1px solid #000080;
+	border-color: gold;
+	border-radius: 18px;
+}
+
+p.button2 {
+	padding: 0.2em;
+	width: 110px;
+	text-align: center;
+	border: 1px solid #000080;
+	border-color: gold;
+	border-radius: 18px;
+}
+
+div#announcements div.text {
+	height: 50px;
+	overflow: hidden;
+}
+
+div#news div.text {
+	height: 250px;
+	overflow: hidden;
+}
+
+a:link {
+	color: #000080;
+	color: gold;
+}
+
+a:visited {
+
+}
+
+a:hover {
+	background-color: #000080;
+	background-color: gold;
+	color: white;
+}
+
+p.button1:hover, p.button2:hover {
+	background-color: #000080;
+	background-color: gold;
+	color: white;
+}
+
+a:actve {
+
+}
+
+/*==footer===
+=============*/
+
+footer {
+	background-color: #000080;
+	display: table;
+	width: 100%;
+	padding: 0.5em;
+}
+
+div.leftFoot, div.centerFoot, div.rightFoot {
+	display: table-cell;
+	/*border: 1px solid #000;
+	background-color: pink;*/
+}
+
+div.leftFoot {
+	/*width: 33%;*/
+	margin: 0px;
+	padding: 0px;	
+}
+
+div.centerFoot {
+	/*width: 33%;*/	
+	margin: 0px;
+	padding: 0px;
+}
+
+div.rightFoot {
+	/*width: 33%;*/	
+	margin: 0px;
+	padding: 0px;
+}
+
+div.centerFoot ul#socialMedia li {
+	display: inline-block;
+}
+
+/*
+div.leftFoot {
+	float: left;
+}
+
+div.centerFoot {
+	float: left;
+}
+
+div.rightFoot {
+
+}
+*/
+
